@@ -1,7 +1,7 @@
 import PropTypes from "prop-types";
 import { RiDeleteBin5Line } from "react-icons/ri";
 
-const Selected = ({player}) => {
+const Selected = ({player, handleDelete}) => {
     const{role, name, image,} = player
     return (
         <div className="border rounded-2xl p-5 gap-5">
@@ -14,13 +14,14 @@ const Selected = ({player}) => {
 
                     </div>
                 </div>
-                <button className="text-2xl text-orange-500"><RiDeleteBin5Line /></button>
+                <button onClick={()=>handleDelete(player)} className="text-2xl text-orange-500"><RiDeleteBin5Line /></button>
             </div>
             
         </div>
     );
 };
 Selected.propTypes={
-    player: PropTypes.object
+    player: PropTypes.object,
+    handleDelete: PropTypes.func
 }
 export default Selected;

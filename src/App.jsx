@@ -26,20 +26,23 @@ const [isActive, setIsActive] = useState({
       })
     }
   }
-
+  const [playerValue, setPlayerValue] = useState(1000000)
+  const handleDecreaseValue = (selectedPlayer)=>{
+      setPlayerValue(playerValue-selectedPlayer.bidding_price)
+  }
 
 
 
   return (
-    <div className="Container mx-36 my-10">
+    <div className="Container mx-36">
       {/* Header section */}
       <section>
-        <Navbar></Navbar>
+        <Navbar playerValue={playerValue}></Navbar>
         <Banner></Banner>
       </section>
       {/* Main Section */}
       <section>
-        <Items isActive={isActive} handleIsActiveState={handleIsActiveState}></Items>
+        <Items isActive={isActive} handleDecreaseValue={handleDecreaseValue} handleIsActiveState={handleIsActiveState}></Items>
         
 
       </section>
