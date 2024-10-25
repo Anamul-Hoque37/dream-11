@@ -3,7 +3,7 @@
       "player_id": 101,
       "name": "Virat Kohli",
       "country": "India",
-      "image": "https://i.ibb.co.com/R4ZSxFX/Virat-Kohli-in-PMO-New-Delhi.jpg",
+      "image": "https://i.ibb.co.com/k5vF7rW/Virat-Kohli-in-PMO-New-Delhi.jpg",
       "role": "Batsman",
       "batting_type": "Right-hand bat",
       "bowling_type": "Right-arm medium",
@@ -56,7 +56,7 @@
       "image": "https://i.ibb.co.com/54CFTMd/warner-player-of-the-tournamen-0-1200x768-1-1.jpg",
       "role": "Batsman",
       "batting_type": "Left-hand bat",
-      "bowling_type": "None",
+      "bowling_type": "N/A",
       "bidding_price": 1900000
     },
     {
