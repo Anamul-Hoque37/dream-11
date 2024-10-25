@@ -1,0 +1,123 @@
+[
+    {
+      "player_id": 101,
+      "name": "Virat Kohli",
+      "country": "India",
+      "image": "https://i.ibb.co.com/R4ZSxFX/Virat-Kohli-in-PMO-New-Delhi.jpg",
+      "role": "Batsman",
+      "batting_type": "Right-hand bat",
+      "bowling_type": "Right-arm medium",
+      "bidding_price": 2500000
+    },
+    {
+      "player_id": 102,
+      "name": "Rohit Sharma",
+      "country": "India",
+      "image": "https://i.ibb.co.com/h8RP6FZ/Prime-Minister-Of-Bharat-Shri-Narendra-Damodardas-Modi-with-Shri-Rohit-Gurunath-Sharma-Cropped.jpg",
+      "role": "Batsman",
+      "batting_type": "Right-hand bat",
+      "bowling_type": "Off-spin",
+      "bidding_price": 2300000
+    },
+    {
+      "player_id": 103,
+      "name": "Steve Smith",
+      "country": "Australia",
+      "image": "https://i.ibb.co.com/0nRT1pR/4552.webp",
+      "role": "Batsman",
+      "batting_type": "Right-hand bat",
+      "bowling_type": "Leg-spin",
+      "bidding_price": 2200000
+    },
+    {
+      "player_id": 104,
+      "name": "Kane Williamson",
+      "country": "New Zealand",
+      "image": "https://i.ibb.co.com/92R60QL/gettyimages-1733747786-612x612.jpg",
+      "role": "Batsman",
+      "batting_type": "Right-hand bat",
+      "bowling_type": "Off-spin",
+      "bidding_price": 2000000
+    },
+    {
+      "player_id": 105,
+      "name": "Joe Root",
+      "country": "England",
+      "image": "https://i.ibb.co.com/XWq6c6F/Joe-Root-HIP1487-cropped.jpg",
+      "role": "Batsman",
+      "batting_type": "Right-hand bat",
+      "bowling_type": "Off-spin",
+      "bidding_price": 2100000
+    },
+    {
+      "player_id": 106,
+      "name": "David Warner",
+      "country": "Australia",
+      "image": "https://i.ibb.co.com/54CFTMd/warner-player-of-the-tournamen-0-1200x768-1-1.jpg",
+      "role": "Batsman",
+      "batting_type": "Left-hand bat",
+      "bowling_type": "None",
+      "bidding_price": 1900000
+    },
+    {
+      "player_id": 107,
+      "name": "Babar Azam",
+      "country": "Pakistan",
+      "image": "https://i.ibb.co.com/XjhgqbM/Untitled-design.jpg",
+      "role": "Batsman",
+      "batting_type": "Right-hand bat",
+      "bowling_type": "Off-spin",
+      "bidding_price": 2400000
+    },
+    {
+      "player_id": 108,
+      "name": "Ben Stokes",
+      "country": "England",
+      "image": "https://i.ibb.co.com/dc6CgZF/Ben-Stokes-breaks-silence-ODI-return-Champions-Trophy-2025-in-Pakistan.webp",
+      "role": "All-rounder",
+      "batting_type": "Left-hand bat",
+      "bowling_type": "Right-arm fast-medium",
+      "bidding_price": 2800000
+    },
+    {
+      "player_id": 109,
+      "name": "Pat Cummins",
+      "country": "Australia",
+      "image": "https://i.ibb.co.com/mCsrxC3/images.jpg",
+      "role": "Bowler",
+      "batting_type": "Right-hand bat",
+      "bowling_type": "Right-arm fast",
+      "bidding_price": 3000000
+    },
+    {
+      "player_id": 110,
+      "name": "Jasprit Bumrah",
+      "country": "India",
+      "image": "https://i.ibb.co.com/pnV0DgF/Epo-KMHy-Bvr.webp",
+      "role": "Bowler",
+      "batting_type": "Right-hand bat",
+      "bowling_type": "Right-arm fast",
+      "bidding_price": 2600000
+    },
+    {
+      "player_id": 111,
+      "name": "Trent Boult",
+      "country": "New Zealand",
+      "image": "https://i.ibb.co.com/xXvzqh4/1200px-2018-02-03-22-23-14-AUSv-NZL-T20-AUS-innings-SCG-39533156665.jpg",
+      "role": "Bowler",
+      "batting_type": "Left-hand bat",
+      "bowling_type": "Left-arm fast-medium",
+      "bidding_price": 2200000
+    },
+    {
+      "player_id": 112,
+      "name": "Andre Russell",
+      "country": "West Indies",
+      "image": "https://i.ibb.co.com/JH32jNh/69417405.webp",
+      "role": "All-rounder",
+      "batting_type": "Right-hand bat",
+      "bowling_type": "Right-arm fast-medium",
+      "bidding_price": 2900000
+    }
+  ]
+  
