@@ -1,8 +1,22 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# My Dream 11
+### Live link: http://acidic-rod.surge.sh/
+***
+## A brief description of my dream 11 project
 
-Currently, two official plugins are available:
+The Dream 11 Project is an innovative, user-centric platform designed to transform the way fans interact with sports. This platform enables users to create their ideal team lineups, compete in fantasy leagues, and stay up-to-date with the latest stats, matches, and player news. Our mission is to bring fans closer to the game by providing an immersive experience that combines real-time data, strategic game play, and social engagement.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Used Technologies.
+ * **React**
+ * **Vite**
+ * **Tailwind**
+ * **React Icons**
+ * **imgBB**
+ * **ChatGPT**
+
+
+## 3 key features of my dream 11 project
+
+* *Real-Time Analytics & Insights*
+* *Interactive Community & Social Sharing*
+* *Personalized Recommendations & Game Modes*
