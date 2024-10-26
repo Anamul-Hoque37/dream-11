@@ -5,6 +5,8 @@ import Email from "./Container/Email";
 import Footer from "./Container/Footer";
 import Navbar from "./Container/Navbar";
 import { useState } from "react";
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 
 
@@ -26,23 +28,40 @@ const [isActive, setIsActive] = useState({
       })
     }
   }
-  const [playerValue, setPlayerValue] = useState(1000000)
-  const handleDecreaseValue = (selectedPlayer)=>{
-      setPlayerValue(playerValue-selectedPlayer.bidding_price)
+
+  const [initialValue, setInitialValue] =useState(0)
+  const saveAmount = (amount) => {
+    setInitialValue(initialValue + amount)
+    if(amount){
+      toast('Thanks for added amount',{amount})
+    }
   }
 
+  const handleDecreaseValue = (player)=>{
+      setInitialValue(initialValue-player.bidding_price)
+      if(player){
+        toast('Welcome Our Team ')
+      }
+  }
 
+  const handleIncreaseValue = (player) => {
+    setInitialValue(initialValue+player.bidding_price)
+    if(player){
+      toast('Bad Luck!! See You Next Season')
+    }
+  }
 
   return (
     <div className="Container mx-36">
       {/* Header section */}
       <section>
-        <Navbar playerValue={playerValue}></Navbar>
-        <Banner></Banner>
+        <Navbar initialValue={initialValue}></Navbar>
+        <ToastContainer />
+        <Banner saveAmount={saveAmount}></Banner>
       </section>
       {/* Main Section */}
       <section>
-        <Items isActive={isActive} handleDecreaseValue={handleDecreaseValue} handleIsActiveState={handleIsActiveState}></Items>
+        <Items isActive={isActive} initialValue={initialValue} handleIncreaseValue={handleIncreaseValue} handleDecreaseValue={handleDecreaseValue} handleIsActiveState={handleIsActiveState}></Items>
         
 
       </section>

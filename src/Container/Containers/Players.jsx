@@ -5,7 +5,8 @@ import { IoFlagOutline } from "react-icons/io5";
 const Players = ({player, handleSelectedPlayer}) => {
     const{role, name, image, country, batting_type, bidding_price, bowling_type} = player
     return (
-        <div className="border p-4 rounded-2xl">
+        <div>
+            <div className="border p-4 rounded-2xl">
             <div className="flex flex-col gap-4">
                 <img className="w-full h-52 rounded-2xl" src={image} alt="" />
                 <div className="flex justify-start items-center gap-2 text-2xl font-semibold">
@@ -30,7 +31,7 @@ const Players = ({player, handleSelectedPlayer}) => {
                     <button onClick={()=>handleSelectedPlayer(player)} className="btn">Choose Player</button>
                 </div>
             </div>
-            
+            </div>
         </div>
     );
 };
