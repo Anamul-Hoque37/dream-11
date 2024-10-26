@@ -56,7 +56,10 @@ const [isActive, setIsActive] = useState({
       {/* Header section */}
       <section>
         <Navbar initialValue={initialValue}></Navbar>
-        <ToastContainer />
+        <ToastContainer
+        position="top-center"
+        autoClose={3000}
+        />
         <Banner saveAmount={saveAmount}></Banner>
       </section>
       {/* Main Section */}

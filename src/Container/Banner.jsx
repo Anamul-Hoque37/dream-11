@@ -4,7 +4,7 @@ const Banner = ({saveAmount}) => {
     const amount = 5000000;
     return (
         <div>
-            <div className="flex flex-col justify-center items-center bg-slate-900 rounded-3xl py-12 mb-12 gap-5 bg-[url(https://i.ibb.co.com/zNYRq2Z/bg-shadow.png)] bg-no-repeat bg-fixed">
+            <div className="flex flex-col justify-center items-center bg-zinc-900 rounded-3xl py-12 mb-12 gap-5 bg-[url(https://i.ibb.co.com/kMf8NDX/bg-shadow.png)] bg-no-repeat bg-cover">
                 <img src="https://i.ibb.co.com/3TWx0X6/banner-main.png" alt="" />
                 <h1 className="text-4xl font-bold text-white">Assemble Your Ultimate Dream 11 Cricket Team</h1>
                 <p className="text-2xl font-medium text-[#FFFFFFB3]">Beyond Boundaries Beyond Limits</p>

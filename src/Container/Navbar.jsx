@@ -7,7 +7,7 @@ const Navbar = ({initialValue}) => {
         <div className="flex justify-between items-center py-5 sticky top-0 bg-opacity-30 bg-lime-50">
             <div><img src="https://i.ibb.co.com/k3WsC8f/logo.png" alt="" /></div>
             <div className="flex justify-end gap-6 items-center">
-                <ul className="flex justify-center gap-6 items-center">
+                <ul className="sm:hidden md:flex-row lg:flex gap-6 justify-center items-center">
                     <li>Home</li>
                     <li>Fixture</li>
                     <li>Teams</li>

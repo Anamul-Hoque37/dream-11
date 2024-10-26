@@ -5,7 +5,7 @@ const Footer = () => {
         <div className="mt-60">
             <div className=" w-3/5 absolute mt-[-160px] ml-32 z-30">
                 <div className="border rounded-3xl p-3">
-                    <div className=" flex flex-col justify-center gap-4 items-center py-16 bg-amber-100 border rounded-3xl bg-[url(https://i.ibb.co.com/zNYRq2Z/bg-shadow.png)] bg-no-repeat bg-fixed">
+                    <div className=" flex flex-col justify-center gap-4 items-center py-16 bg-emerald-500 border rounded-3xl bg-[url(https://i.ibb.co.com/kMf8NDX/bg-shadow.png)] bg-no-repeat bg-cover">
                         <h1 className="text-3xl font-semibold text-[#131313] ">Subscribe to our Newsletter</h1>
                         <p className="text-xl font-medium text-[#131313B3]">Get the latest updates and news right in your inbox!</p>
                         <div className="flex justify-between items-center">
